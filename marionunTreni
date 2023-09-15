@@ -1,0 +1,15 @@
+const marioBolumu = 4;
+
+while (true) {
+    // Babanın tahmini
+    const babaTahmini = parseInt(prompt("Babanın tahmini:"));
+
+    if (babaTahmini < marioBolumu) {
+        console.log("Programın konsol çıktısı: \"Oğlunuz daha büyük numaralı bölmede.\"");
+    } else if (babaTahmini > marioBolumu) {
+        console.log("Programın konsol çıktısı: \"Oğlunuz daha küçük numaralı bölmede.\"");
+    } else {
+        console.log("Programın konsol çıktısı: \"Evet, oğlunu buldun.\"");
+        break;
+    }
+}
